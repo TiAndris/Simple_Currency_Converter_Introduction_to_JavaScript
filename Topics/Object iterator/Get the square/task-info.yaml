@@ -1,0 +1,32 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    highlight_level: NONE
+    text: "function getTheSquare(arrayOfObjects) {    \n    return arrayOfObjects;\n\
+    }"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16906#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 2. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    [{"source":16,"square":null},{"source":64,"square":null},{"source":121,"square":null}]
+    Correct output:
+    [ { source: 16, square: 4 },
+      { source: 64, square: 8 },
+      { source: 121, square: 11 } ]
+
+    Your code output:
+    [
+      { source: 16, square: 4 },
+      { source: 64, square: 8 },
+      { source: 121, square: 11 }
+    ]
+  time: "Fri, 13 Oct 2023 13:04:41 UTC"
+record: -1
+submission_language: javascript
